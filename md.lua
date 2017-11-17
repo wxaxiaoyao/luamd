@@ -36,8 +36,15 @@ function md:next_line()
 	self.current_line = self.current_line + 1
 end
 
+function header_rule()
+end
+
 function md:render(text, option)
 	self:init(text, option)
+
+	local line = self:get_next_line()
+	while line do
+	end
 end
 
 return md
