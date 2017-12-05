@@ -176,7 +176,8 @@ end
 
 function md:render(text, option)
 	text = [[
-## hello world]]
+## hello world
+]]
 	self:init(text, option)
 
 	log(self.lines)
