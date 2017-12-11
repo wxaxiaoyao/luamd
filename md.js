@@ -390,7 +390,7 @@ md.block_parse = function(text) {
 }
 
 md.parse = function(text) {
-	return self.block_parse(text);
+	return this.block_parse(text);
 }
 
 md.render = function(text) {
@@ -405,7 +405,7 @@ md.render = function(text) {
 }
 
 function test() {
-	console.log("hello world")
+	var text = "## test\n"
 }
 
 //test();
